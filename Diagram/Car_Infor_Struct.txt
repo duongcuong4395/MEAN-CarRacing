@@ -1,0 +1,17 @@
+Item: {
+    name:       String
+    , images:   [String]
+    , value:    Any
+    , des:      String
+}
+
+Category: {
+   general: Item
+   , more_Infor: [Item]
+   , list_Item: [Car_Infor]
+}
+
+Car_Infor: {
+    general: Item
+    , more_Infor: [Item]
+}
